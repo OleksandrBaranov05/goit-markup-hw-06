@@ -1123,7 +1123,6 @@ color: #434455;
 @media screen and (max-width: 767px) {
     .modal {
       width: 288px;
-      height: 623px;
       padding: 72px 16px 24px 16px;
       border-radius: 4px;
       display: flex;
