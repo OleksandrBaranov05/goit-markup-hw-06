@@ -466,7 +466,7 @@ color: #434455;
     align-items: center;
 }
 .features {
-  padding: 120px 156px;
+  padding: 120px 0px;
 }
 .features-list {
     display: flex;
