@@ -53,21 +53,25 @@ button {
 /* common */
 
 .container {
-    max-width: 320px;
-    margin: 0 auto;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
   }
   
   @media screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-    }
+  .container {
+  max-width: 768px;
+  }
   }
   
   @media screen and (min-width: 1158px) {
-    .container {
-      max-width: 1158px;
-      padding: 0 15px;
-    }
+  .container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
   }
   /* header */
   .header-box {
