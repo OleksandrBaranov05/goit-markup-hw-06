@@ -54,8 +54,8 @@ button {
 
 .container {
   max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 52px;
+  padding-right: 52px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -342,7 +342,7 @@ color: #434455;
   /* main- */
   .hero {
     background-color: rgb(46, 47, 66);
-    padding: 72px 52px 200px;
+    padding: 72px 0;
     max-width: 320px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     image-set(
@@ -405,7 +405,7 @@ margin-bottom: 72px;
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
-    margin-bottom: 120px;
+
 }
 .hero-title {
     
@@ -414,7 +414,7 @@ margin-bottom: 72px;
 }
 /* features- */
 .features {
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 .box-icons {
     display: none;
@@ -443,7 +443,7 @@ color: #434455;
 }
 @media screen and (min-width: 768px) {
   .features {
-    padding: 117px 4px 63px 28px;
+    padding: 112px 0;
   }
     .features-list {
       gap: 72px 24px; 
@@ -608,7 +608,7 @@ color: #434455;
   }
 .portfolio {
     background-color: #fff;
-    padding: 96px 16px;
+    padding: 96px 0;
   }
   
   .section-title {
@@ -673,7 +673,7 @@ color: #434455;
   }
   
   .portfolio-text {
-    padding: 32px 16px;
+    padding: 32px 0;
   }
   
   .portfolio-title {
@@ -860,7 +860,7 @@ color: #434455;
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .footer {
-      padding: 96px 108px;
+      padding: 96px 0;
     }
     .footer-container {
         flex-wrap: wrap;
