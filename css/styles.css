@@ -119,7 +119,7 @@ button {
   
   @media screen and (min-width: 768px) { 
     .header-box {
-      padding: 16px 0px;
+     padding: 0;
     }
     .burger-btn {
       display: none;
@@ -347,8 +347,8 @@ color: #434455;
     max-width: 320px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     image-set(
-      url('../images/people-office.jpg') 1x,
-      url('../images/people-office@2x.jpg') 2x
+      url('../images/people-office.jpg')
+      
   ); 
     background-repeat: no-repeat;
     background-position: center;
@@ -356,13 +356,21 @@ color: #434455;
     margin: 0 auto;
     
 }
+@media (min-resolution: 2x) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/people-office@2x.jpg");
+  }
+}
 .hero-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+max-width: 216px;
+margin: 0 auto;
 margin-bottom: 72px;
 }
 .btn {
@@ -389,7 +397,7 @@ margin-bottom: 72px;
 @media screen and (min-width: 768px) {
 .hero {
     padding-top: 112px;
-    padding-bottom: 204px;
+    padding-bottom: 112px;
     max-width: 768px;
     
 }
@@ -675,6 +683,7 @@ color: #434455;
   
   .portfolio-text {
     padding: 32px 0;
+    margin-left: 16px;
   }
   
   .portfolio-title {
@@ -864,6 +873,7 @@ color: #434455;
       padding: 96px 0;
     }
     .footer-container {
+      padding-left: 108px;
         flex-wrap: wrap;
         gap: 72px 24px;
         justify-content: flex-start;
